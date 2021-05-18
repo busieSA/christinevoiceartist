@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    
+}
+
+
+body{
+    margin: 5%;
+    background-color: #a2d9ff;
+    background-image: url(../imgs/wave.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+video{
+    height: 60%;
+    width: 60%;
+}
+audio{
+    width: 80%;
+    align-self: center;
+    margin-bottom: 10%;
+}
+/*
+
+.player{
+    padding-top: 16px;
+    color: black;
+}
+
+*/
+.card-img-top{
+    padding: 2px;
+}
+
+.tel{
+    text-decoration: none;
+}
+.tel:hover{
+    text-decoration: none;
+    color: green;
+}
+
+.card-title{
+    color: #000000;
+}
+i{
+    color: #a2d9ff;
+}
+/* card home for the home page here
+
+Other color :: #447c8e */
+@media screen and (max-width: 600px) {
+        .card-text{
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .ltext{
+            margin-bottom: 0;
+            font-size: 12px;
+        }
+
+        .rounded-pill{
+            font-size: 10px;
+            width: fit-content;
+        }
+        audio{
+            width: 50%;
+            align-self: center;
+        }
+}
+    
+.cardHome{
+    background-color: #447c8e;
+}
+
+
+/* Color reset here for the navi links */
+
+
+.svg-1{
+    background-image: url(../imgs/Awave.svg);
+    background-repeat: ;
+    background-position: right;
+    width: fit-content;
+}
+
+/* venexplorer designer link a tag decoration here */
+
+.designer{
+    text-decoration: none;
+    border: 1px;
+    border-color: aquamarine;
+}
+
+.designer a {
+    color: white;
+    text-decoration: none;
+}
+
+.designer a :hover{
+    text-decoration: none;
+}
