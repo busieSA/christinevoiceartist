@@ -13,8 +13,8 @@ def listen():
 
 @app.route('/videos')
 def videos():
-    return "hello world this is our video routes"
+    return render_template("videos.html")
 
 @app.route('/contact')
 def contact():
-    return "hello world this is our contact page"
+    return render_template("contact.html")
